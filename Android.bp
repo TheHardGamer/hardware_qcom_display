@@ -6,6 +6,7 @@ cc_defaults {
         "-Wall",
         "-Werror",
         "-std=c++14",
+	"-O3",
     ],
     shared_libs: [
         "liblog",
